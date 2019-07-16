@@ -1,0 +1,40 @@
+Global {
+    edge = top
+    allign = right
+    margin = 0
+    widthtype = pixel
+    width = 306
+    height = 100
+    transparent = true
+    tintcolor = #01161c
+    alpha = 140
+    setdocktype = true
+    setpartialstrut = false
+    autohide = false
+    heightWhenHidden = 2
+    roundcorners = false
+    roundcornersradius = 7
+    layer = below
+    MaxElemHeight = 0
+    xmargin = 12
+    ymargin = 160
+    setlayer = true
+}
+Plugin {
+    type = tclock
+    config {
+        ClockFmt = <span font="Ubuntu 40" color="white">    %I:%M:</span>
+        TooltipFmt = %A %x
+        ShowCalendar = false
+        ShowTooltip = false
+    }
+}
+Plugin {
+    type = tclock
+    config {
+        ClockFmt = <span font="Ubuntu 20" color="white">%p%n%S</span>
+        TooltipFmt = %A %x
+        ShowCalendar = false
+        ShowTooltip = false
+    }
+}
